@@ -525,9 +525,9 @@ Hotkey=T
 [otbk]
 Hotkey=T
 
-// Berserk ------------------- 猎头-狂暴-(B ->R)
+// Berserk ------------------- 猎头-狂暴-(B ->Z)
 [Absk]
-Hotkey=R
+Hotkey=Z
 
 //kodo beast ---------------------------------- 科多 ---------------------------------------- //
 [okod]
@@ -553,7 +553,7 @@ Hotkey=E
 [oshm]
 Hotkey=S
 
-// Purge ------------------- 萨满-净化-(G->E) -----此处配置文件有误，应将Aprg改为Apg2否则无法改键
+// Purge ------------------- 萨满-净化-(G->E) [此处配置文件有误，应将Aprg改为Apg2否则无法改键]
 [Apg2]
 Hotkey=E
 
@@ -593,9 +593,9 @@ Hotkey=T
 [Aast]
 Hotkey=W
 
-// Disenchant (new) - 白牛-消魔（驱散）-(D->E)
+// Disenchant (new) - 白牛-消魔（驱散）-(D->Z)
 [Adcn]
-Hotkey=E
+Hotkey=Z
 
 // Corporeal Form -- 白牛-肉体形态-(F->T)
 [Acpf]
