@@ -1,0 +1,2048 @@
+///////////////////////////////////////////////////// ////
+//此文件包括所有种族单位，英雄，
+//升级，建筑物和异能。请查阅
+//CustomKeyInfo.txt，以获取有关如何
+使用此文件获得自定义热键支持的信息。
+///////////////////////////////////////////////////// ////
+
+
+////////////////////////////
+共享命令（攻击等）
+/////// /////////////////////////
+
+移动
+[CmdMove]
+Hotkey = M
+
+//攻击
+[CmdAttack]
+Hotkey = A
+
+//攻击地
+[CmdAttackGround]
+Hotkey = G
+
+// build（generic）
+[CmdBuild]
+Hotkey = B
+
+// build（human）
+[CmdBuildHuman]
+Hotkey = B
+
+//构建（orc）
+[CmdBuildOrc]
+Hotkey = B
+
+//构建（nightelf）
+[CmdBuildNightElf]
+Hotkey = B
+
+//构建（undead）
+[CmdBuildUndead]
+Hotkey = B
+
+//取消
+[CmdCancel]
+Hotkey = 27
+
+//取消构建
+[CmdCancelBuild]
+Hotkey = 27
+
+//取消火车
+[CmdCancelTrain]
+Hotkey = 27
+
+//取消revive
+[CmdCancelRevive]
+Hotkey = 27
+
+//保持位置
+[CmdHoldPos]
+Hotkey = H
+
+//巡逻
+[CmdPatrol]
+Hotkey = P
+
+// rally
+[CmdRally]
+Hotkey = Y
+
+//选择技能
+[CmdSelectSkill]
+Hotkey = O
+
+//停止
+[CmdStop]
+Hotkey = S
+
+//正常收获
+[Ahar]
+Hotkey = G
+Unhotkey = E
+
+//砍伐木材（食尸鬼）
+[Ahrl]
+Hotkey = G
+Unhotkey = E
+
+// 牡丹/农民维修能力
+[Arep]
+Hotkey = R
+Unhotkey = R
+
+//用于玩家商店等的中性交互（选择用户命令）
+[Anei]
+Hotkey = U
+
+//货物装载（Zeppelin）
+[Aloa]
+Hotkey = L
+
+//货物卸载（齐柏林飞艇）
+[Adro]
+Hotkey = U
+
+//货物卸载（海运）
+[Sdro]
+Hotkey = U
+
+/////////////////////////// //
+//人类单位和
+///////////////////////////
+
+dragonhawk
+[hdhw]
+Hotkey = D
+
+//空中
+Sha铐[Amls ]
+Hotkey = E
+
+//云计算
+[Aclf]
+Hotkey = C
+
+// footman
+[hfoo]
+Hotkey = F
+
+//防御
+[Adef]
+Hotkey = D
+Unhotkey = D
+
+//飞行器
+[hgyr]
+Hotkey = F
+
+// knight
+[hkni]
+Hotkey = K
+
+//牧师
+[hmpr]
+Hotkey = P
+
+//内在火
+[Ainf]
+Hotkey = F
+Unhotkey = F
+
+//治疗
+[Ahea]
+Hotkey = E
+Unhotkey = E
+
+//消除魔法
+[Adis]
+Hotkey = D
+
+//
+凡人组[hmtm]
+Hotkey = M
+
+//耀斑
+[Afla]
+Hotkey = F
+
+//农民
+[hpea]
+Hotkey = P
+
+//召唤武器（一个或几个公匙）
+[Amil]
+Hotkey = C
+Unhotkey = W
+
+//召唤武器（在市政厅，对附近的所有子）
+[Amic]
+Hotkey = C
+Unhotkey = W
+
+//
+rifleman [hrif]
+Hotkey = R
+
+//女巫
+[hsor]
+Hotkey = S
+
+//慢速
+[Aslo ]
+Hotkey = W
+Unhotkey = W
+
+//变形
+[Aply]
+Hotkey = O
+
+//隐身
+[Aivs]
+Hotkey = I
+
+//破坏者
+[hspt]
+Hotkey = B
+
+//偷法术
+[Asps]
+Hotkey = T
+Unhotkey = T
+
+//控制魔法
+[Acmg]
+Hotkey = C
+
+//攻城引擎（无弹幕）
+[hmtt]
+Hotkey = E
+
+//攻城引擎（有弹幕）
+[hrtt]
+Hotkey = E
+
+//
+狮ry 骑手[hgry]
+Hotkey = G
+
+/////////////////////////////
+人类Bldgs ，升级和能力
+///////////////////////////
+
+//控制魔法
+[Rhss]
+Hotkey = G
+
+//铁剑升级
+[Rhme ]
+Hotkey = S，S，S
+
+//火药升级
+[Rhra]
+Hotkey = G，G，G
+
+//铁盔甲升级
+[Rhar]
+Hotkey = P，P，P
+
+//皮革装甲升级
+[Rhla]
+Hotkey = A，A，A
+
+//砌体升级
+[Rhac]
+Hotkey = M，M，M
+
+//飞行器炸弹
+[Rhgb]
+Hotkey = B
+
+//改进的木材采伐升级
+[Rhlh]
+Hotkey = L，L
+
+//防御升级
+[Rhde]
+Hotkey = D
+
+//战争动物训练升级
+[Rhan]
+Hotkey = A
+
+//牧师训练升级
+[Rhpt]
+Hotkey = T，T
+
+/ /女巫培训升级
+[Rhst]
+Hotkey = O，O
+
+//长步枪升级
+[Rhri]
+Hotkey = L
+
+//魔术哨兵升级
+[Rhse]
+Hotkey = M
+
+//火炬升级
+[Rhfl]
+Hotkey = R
+
+//暴风锤升级
+[Rhhb]
+Hotkey = H
+
+//弹幕升级
+[Rhrt]
+Hotkey = G
+
+//背包升级
+[Rhpm]
+Hotkey = B
+
+//火炮升级
+[Rhfc]
+Hotkey = C
+
+//片段碎片升级
+[Rhfs]
+Hotkey = S
+
+//云升级
+[Rhcd]
+Hotkey = C
+
+//
+破烂之刃[Rhsb]
+Hotkey = B
+
+//国王的祭坛
+[停止]
+Hotkey = A
+
+//车间
+[伤害]
+Hotkey = W
+
+//
+甘蔗圣所[hars]
+Hotkey = R
+
+//人类兵营
+[hbar]
+Hotkey = B
+
+//铁匠
+[hbla]
+Hotkey = S
+
+//城堡
+[hcas]
+Hotkey = U
+
+//农场
+[hhou]
+Hotkey = F
+
+//
+狮ry 鸟舍[hgra]
+Hotkey = G
+
+// Cannon Tower
+[hctw]
+Hotkey = C
+
+///守卫塔
+[hgtw]
+Hotkey = G
+
+//侦察塔
+[hwtw]
+Hotkey = T
+
+// arcane塔
+[hatw]
+Hotkey = N
+
+//在奥术塔上显示
+[AHta]
+Hotkey = R
+
+// arcane Vault
+[hvlt]
+Hotkey = V
+
+//木材厂
+[hlum]
+热键= L
+
+//保持
+[hkee]
+热键= U
+
+//市政厅
+[htow]
+Hotkey = H
+
+
+///////////////////////////
+//人类英雄与能力
+///////// ///////////////////
+
+//血法师
+[Hblm]
+Hotkey = B
+
+//虹吸法力
+[AHdr]
+Hotkey = N
+Researchhotkey = N
+
+//烈焰打击
+[AHfs]
+Hotkey = F
+Researchhotkey = F
+
+//
+清除[AHbn]
+Hotkey = B
+Researchhotkey = B
+
+//召唤Phoenix
+[AHpx]
+Hotkey = X
+Researchhotkey = X
+
+// archmage
+[Hamg]
+Hotkey = A
+
+// Blizzard
+[AHbz]
+Hotkey = B
+Researchhotkey = B
+
+//召唤水元素
+[AHwe]
+Hotkey = W
+Researchhotkey = W
+
+//
+华晨光环[AHab]
+Researchhotkey = R
+
+//大众传送
+[AHmt]
+Hotkey = T
+Researchhotkey = T
+
+//山王
+[Hmkg]
+Hotkey = M
+
+//风暴螺栓
+[AHtb]
+Hotkey = T
+Researchhotkey = T
+
+//雷声
+拍击[AHtc]
+Hotkey = C
+Researchhotkey = C
+
+// Bash
+[AHbh]
+Researchhotkey = B
+
+//头像
+[AHav]
+Hotkey = V
+Unhotkey = V
+Researchhotkey = V
+
+// paladin
+[Hpal]
+Hotkey = L
+
+//圣光
+[AHhb]
+热键= T
+研究热键= T
+
+//圣盾
+[AHds]
+热键= D
+Unhotkey = D
+Researchhotkey = D
+
+//灵气
+[AHad]
+Researchhotkey = V
+
+//复活
+[AHre]
+Hotkey = R
+Researchhotkey = R
+
+
+///////////// //////////////////////
+兽人单位
+///////////////////// //
+
+//拆除器
+[ocat]
+Hotkey = D
+
+//巫医
+[odoc]
+Hotkey = W
+
+//哨兵
+守卫[Aeye]
+Hotkey = W
+
+// 静息陷阱法术
+[Asta]
+Hotkey = T
+
+//治疗
+守卫[Ahwd]
+Hotkey = E
+
+//咕
+unt 声[ogru]
+热键= G
+
+// troll猎头
+[ohun]
+Hotkey = T
+
+// troll狂战士
+[otbk]
+Hotkey = T
+
+//狂暴
+[Absk]
+Hotkey = B
+
+// kodo野兽
+[okod]
+Hotkey = K
+
+//吞噬
+[Adev]
+Hotkey = D
+
+//日工
+[OPEO]
+热键= P
+
+//袭击者
+[orai]
+热键= R
+
+//诱捕
+[AENS]
+热键= E
+
+//撒满
+[oshm]
+热键= S
+
+//清除
+[Aprg]
+热键= G
+
+//嗜血
+[Ablo]
+热键= B
+Unhotkey = B
+
+
+//闪电盾
+[Alsh]
+Hotkey = L
+
+//牛头人
+[otau]
+Hotkey = T
+
+//拖曳蝙蝠侠
+[otbr]
+Hotkey = B
+
+//不稳定的
+混合物[Auco]
+Hotkey = C
+Unhotkey = C
+
+
+// wind rider
+[owyv]
+Hotkey = W
+
+// spirit walker
+[ospm]
+Hotkey = T
+
+/ /祖灵
+[AAST]
+热键= C
+
+//分解（新）
+[ADCN]
+热键= d
+
+//肉体的形式
+[ACPF]
+热键= F
+Unhotkey = F
+
+//抓包形式
+[AETF]
+热键= F
+Unhotkey = F
+
+//精神链接
+[Aspl]
+Hotkey = R
+
+
+//////////////////////////////
+Orc Bldgs，Upgrades＆Abilities
+//////////////////////////////
+
+orc近战武器升级
+[罗马]
+Hotkey = M，M，M
+
+// orc远程武器升级
+[Rora]
+Hotkey = R，R，R
+
+//兽人装甲升级
+[Roar]
+Hotkey = A，A，A
+
+//战鼓升级
+[Rwdm]
+Hotkey = D
+
+//掠夺升级
+[Ropg]
+Hotkey = G
+
+// berserker 力量升级
+[Robs]
+Hotkey = B
+
+//粉碎升级
+[Rows]
+Hotkey = P
+
+// ensnare升级
+[Roen]
+Hotkey = N
+
+//刺矛升级
+[Rovs]
+Hotkey = E
+
+//巫医训练升级
+[Rowd]
+Hotkey = D，D
+
+//萨满训练升级
+[Rost]
+Hotkey = M，M
+
+//刺路障升级
+[Rosp]
+Hotkey = S，S
+
+//巨魔再生升级
+[Rotr]
+Hotkey = R
+
+//液体火力升级
+[Rolf]
+Hotkey = L
+
+//背包升级（orc）
+[Ropm]
+Hotkey = B
+
+//精神步行者训练升级
+[Rowt]
+Hotkey = R，R
+
+// troll狂战士升级
+[Robk]
+Hotkey = E
+
+//强化防御升级
+[Rorb]
+Hotkey = D
+
+//燃烧石油升级
+[Robf]
+Hotkey = N
+
+//风暴祭坛
+[oalt]
+Hotkey = A
+
+// orc军营
+[obar]
+Hotkey = B
+
+//大礼堂
+[obea]
+Hotkey = E
+
+//战场
+[ofor]
+Hotkey = M
+
+//要塞
+[ofrt]
+Hotkey = U
+
+//大礼堂
+[ogre]
+Hotkey = H
+
+//精神小屋
+[osld]
+Hotkey = S
+
+//要塞
+[ostr]
+Hotkey = U
+
+//兽人洞穴
+[otrb]
+Hotkey = O
+
+//战斗站
+[Abtl]
+Hotkey = B
+
+//从战场站下来
+[Astd]
+Hotkey = D
+
+//增强的兽人洞穴
+[orbr ]
+Hotkey = O
+
+//牛头人图腾
+[otto]
+Hotkey = T
+
+//伏都
+教休息室[ovln]
+Hotkey = V
+
+//守望塔
+[owtw]
+Hotkey = W
+
+
+///////////////////////////////
+Orc Heroes＆Abilities
+// ////////////////////////////
+
+[Obla]
+Hotkey = B
+
+//
+风行[AOwk]
+Hotkey = W
+Researchhotkey = W
+
+//暴击
+[AOcr]
+Researchhotkey = C
+
+//镜像
+[AOmi]
+Hotkey = R
+Researchhotkey = R
+
+//
+Bladestorm [AOww]
+Hotkey = B
+Researchhotkey = B
+// 先知
+[Ofar]
+Hotkey = F
+
+//闪电链
+[AOcl]
+Hotkey = C
+Researchhotkey = C
+
+//
+远景[AOfs]
+热键= F
+Researchhotkey = F
+
+//
+狂野灵魂[AOsf]
+Hotkey = T
+Researchhotkey = T
+
+//地震
+[AOeq]
+Hotkey = E
+Researchhotkey = E
+
+[Oshd]
+Hotkey = H
+
+//治疗波
+[AOhw]
+Hotkey = E
+Researchhotkey = E
+
+//蛇Ward
+[AOsw]
+Hotkey = W
+Researchhotkey = W
+
+//十六进制
+[AOhx]
+Hotkey = X
+Researchhotkey = X
+
+// Voodoo
+[AOvd]
+Hotkey = V
+Researchhotkey = V
+
+[Otch]
+Hotkey = T
+
+
+// Shockwave
+[AOsh]
+Hotkey = W
+Researchhotkey = W
+
+//耐力光环
+[AOae]
+Researchhotkey = E
+
+//战to（Chieftan）
+[AOws]
+Hotkey = T
+Researchhotkey = T
+
+//转世
+[AOre]
+Researchhotkey = R
+
+
+/////////////////////// ///////
+// Night Elf Units＆Abilities
+///////////////////////////
+
+//暗影融合
+[Ashm]
+Hotkey = I
+
+//前
+刃投掷者[ebal]
+Hotkey = T
+
+// chimaera
+[echm]
+Hotkey = C
+
+//爪子，暗夜精灵形态
+[edoc]
+Hotkey = C
+
+//吼，暗夜精灵形态
+[Aroa]
+Hotkey = R
+
+//复兴
+[Arej]
+Hotkey = E
+
+//熊形态
+[Abrf]
+Hotkey = F
+Unhotkey = F
+
+//咆哮（熊形态）
+[Ara2]
+Hotkey = R
+
+//爪爪德鲁伊
+[edot]
+Hotkey = T
+
+//仙灵之火
+[Afae]
+Hotkey = R
+Unhotkey = R
+
+//旋风
+[Acyc]
+Hotkey = C
+
+//乌鸦形
+[Arav]
+Hotkey = F
+Unhotkey = F
+
+//仙灵之火（乌鸦形）
+[Afa2]
+Hotkey = R
+Unhotkey = R
+
+// wisp
+[ewsp]
+Hotkey = W
+
+//更新
+[Aren]
+Hotkey = R
+Unhotkey = R
+
+//
+小雨收割[Awha]
+Hotkey = G
+
+//引爆
+[Adtn]
+Hotkey = D
+
+//
+huntress [esen]
+热键= H
+
+//哨兵
+[AESN]
+热键= E
+
+//射手
+[EARC]
+热键= A
+
+//山角鹰
+[ACO2]
+热键= U
+
+//卸除角鹰
+[ADEC]
+热键= U
+
+//树精
+[edry]
+热键= d
+
+//自动驱散魔术
+[Aadm]
+Hotkey = B
+Unhotkey = B
+
+// hippogryph
+[ehip]
+Hotkey = H
+
+//捡起弓箭手
+[Aco3]
+Hotkey = U
+
+//山脉巨人
+[emtg]
+Hotkey = G
+
+//战争俱乐部
+[ Agra]
+Hotkey = W
+
+//嘲讽
+[Atau]
+Hotkey = T
+
+//
+faerie dragon [efdr]
+Hotkey = F
+
+//
+魔力光斑[Amfl]
+Hotkey = F
+Unhotkey = F
+
+//相移
+[Apsh]
+Hotkey = E
+Unhotkey = E
+
+
+////////////////////// ///////
+// Night Elf Bldgs，Upgrades＆Abilities
+//////////////////////////
+
+//月球强度升级
+[Resm]
+Hotkey = M，M，M
+
+//野蛮的力量升级
+[Resw]
+Hotkey = W，W，W
+
+//月亮装甲升级
+[Rema]
+Hotkey = A，A，A
+
+//增强的皮革升级
+[Rerh ]
+Hotkey = R，R，R
+
+//超视
+[Reuv]
+Hotkey = U
+
+//自然的祝福升级
+[Renb]
+Hotkey = N
+
+//改进的弓箭升级
+[Reib]
+Hotkey = I
+
+//枪法升级
+[Remk]
+Hotkey = M
+
+//哨兵升级
+[Resc]
+Hotkey = S
+
+//月亮
+滑行升级[Remg]
+Hotkey = G
+
+//爪子训练升级的德鲁伊
+[Redt]
+Hotkey = A，A
+
+//爪训练升级德鲁伊
+[Redc]
+Hotkey = L，L
+
+//废除魔法升级
+[Resi]
+Hotkey = S
+
+//驯鹿驯化升级
+[ Reht ]
+Hotkey = I
+
+//腐蚀性呼吸升级
+[Recb]
+Hotkey = B
+
+//刀片升级
+[Repb]
+Hotkey = P
+
+//抵抗皮肤升级
+[Rers]
+Hotkey = T
+
+//硬化皮肤升级
+[Rehs]
+Hotkey = H
+
+//爪升级的标记
+[Reeb]
+Hotkey = M
+
+// 爪升级的标记
+[Reec]
+Hotkey = M
+
+//泉水升级
+[Rews]
+Hotkey = E
+
+//背包升级
+[Repm]
+Hotkey = B
+
+// Eat Tree
+[Aeat]
+Hotkey = E
+
+// Root
+[Aroo]
+Hotkey = R
+Unhotkey = R
+
+//古代保护者
+[etrp]
+Hotkey = P
+
+//生命之树
+[etol]
+Hotkey = T
+
+//纠缠金矿
+[Aent]
+Hotkey = G
+
+//纠缠的金矿货物（装载/卸载）
+[Aenc]
+Hotkey = L
+Unhotkey = U
+
+//货物纠缠的地雷
+[Slo2]
+Hotkey = L
+
+//货物卸载（即刻的金矿）
+[Adri]
+Hotkey = U
+
+
+
+//升级到老树
+[etoa]
+Hotkey = U
+
+//升级到永恒之树
+[etoe]
+Hotkey = U
+
+//猎人的殿堂
+[edob]
+Hotkey = H
+
+//长者祭坛[eate
+]
+Hotkey = A
+
+//
+绝大部分的传说[eaoe]
+Hotkey = L
+
+//战争的古代
+[eaom]
+Hotkey = R
+
+//古风
+[eaow]
+Hotkey = W
+
+//奇观
+[eden]
+Hotkey = D
+
+// chimaera
+roost [edos]
+Hotkey = C
+
+//月亮井
+[emow]
+Hotkey = M
+
+//月亮池的法力补充
+[Ambt]
+Hotkey = R
+Unhotkey = R
+
+//////////////// //////////////////
+Night Elf Heroes＆Abilities
+///////////////////////////// //
+
+//恶魔猎手
+[Edem]
+Hotkey = D
+
+//
+魔力燃烧[AEmb]
+Hotkey = B
+Researchhotkey = B
+
+//献祭
+[AEim]
+Hotkey = L
+Unhotkey = L
+Researchhotkey = L
+
+//逃避
+[AEev]
+Researchhotkey = E
+
+/ /变形
+[AEme]
+热键= T
+研究热键= T
+
+// //树林的守护者 [Ekee
+]
+Hotkey = K
+
+//纠缠的根
+[AEer]
+Hotkey = E
+Researchhotkey = E
+
+//自然力量
+[AEfn]
+Hotkey = F
+Researchhotkey = F
+
+//荆棘灵气
+[AEah]
+Researchhotkey = R
+
+/ /宁静
+[AEtq]
+Hotkey = T
+Researchhotkey = T
+
+//月球女神
+[Emoo]
+Hotkey = P
+
+//侦察兵
+[AEst]
+Hotkey = C
+Researchhotkey = C
+
+//
+灼烧的箭头[AHfa]
+Hotkey = R
+Unhotkey = R
+Researchhotkey = R
+
+//
+Trueshot 光环[AEar]
+Researchhotkey = T
+
+// 星落
+[AEsf]
+Hotkey = F
+Researchhotkey = F
+
+//守卫
+[Ewar]
+Hotkey = W
+
+//眨眼
+[AEbl]
+Hotkey = B
+Researchhotkey = B
+
+//
+刀锋[AEfk]
+Hotkey = F
+Researchhotkey = F
+
+//暗影打击
+[AEsh ]
+Hotkey = D
+Researchhotkey = D
+
+
+//复仇的头像
+[AEsv]
+Hotkey = V
+Researchhotkey = V
+
+
+//复仇
+[Avng]
+Hotkey = V
+
+
+//////////////////// /////////
+//亡灵单位和
+//////////////////////////////
+
+acolyte
+[uaco]
+Hotkey = C
+
+//取消
+召唤[Auns]
+Hotkey = U
+
+// Acolyte Harvest
+[Aaha]
+Hotkey = G
+Unhotkey = R
+
+//恢复（修复
+电解质）[Arst]
+Hotkey = R
+Unhotkey = R
+
+//
+消灭[uabo]
+Hotkey = A
+
+//食人（
+消灭）[Acn2]
+Hotkey = C
+
+//女妖
+[uban]
+Hotkey = B
+
+//诅咒
+[Acrs]
+Hotkey = C
+Unhotkey = C
+
+//反魔术壳
+[Aams]
+Hotkey = N
+
+//反魔术壳
+[Aam2]
+Hotkey = N
+
+//占有
+[Apos ]
+Hotkey = O
+
+//拥有
+[Aps2]
+Hotkey = O
+
+// crypt fiend
+[ucry]
+Hotkey = F
+
+// Web
+[Aweb]
+Hotkey = W
+Unhotkey = W
+
+// 挖洞（地下恶魔）
+[Abur]
+Hotkey = B
+Unhotkey = B
+
+//霜冻
+巨龙[ufro]
+Hotkey = F
+
+//石像鬼
+[ugar]
+Hotkey = A
+
+//石头表格
+[Astn]
+Hotkey = F
+Unhotkey = F
+
+//食尸鬼
+[ugho]
+Hotkey = G
+
+//食人（食尸鬼）
+[Acan]
+Hotkey = C
+
+//死灵法师
+[unec]
+Hotkey = N
+
+//复活死者
+[Arai]
+Hotkey = R
+Unhotkey = R
+
+//邪恶的疯狂
+// [Auhf]
+// Hotkey = U
+
+//煽动邪恶的疯狂
+[Auuf]
+Hotkey = U
+
+// p脚
+[Acri]
+Hotkey = C
+
+//肉车
+[umtw]
+Hotkey = M
+
+//装载尸体
+[Amel]
+Hotkey = C
+Unhotkey = C
+
+//卸载尸体
+[Amed]
+Hotkey = D
+
+//黑曜石雕像
+[ uobs]
+Hotkey = O
+
+//精神接触
+[Arpm]
+Hotkey = C
+Unhotkey = C
+
+//枯萎精华
+[Arpl]
+Hotkey = B
+Unhotkey = B
+
+//毁灭者
+[ubsp]
+Hotkey = T
+
+//歼灭之球
+[Afak]
+Hotkey = O
+Unhotkey = O
+
+//吞噬魔法
+[Advm]
+Hotkey = D
+
+
+//吸收法力
+[Aabs]
+Hotkey = B
+
+
+//////////////////////////////
+Undead Bldgs，升级和能力
+/////// //////////////////////
+
+//破坏形式升级
+[Rusp]
+热键= T
+
+//不洁强度升级
+[Rume]
+热键= S，S，S
+
+//生物攻击升级
+[Rura]
+Hotkey = A，A，A
+
+//邪恶的盔甲升级
+[Ruar]
+Hotkey = U，U，U
+
+//生物壳升级
+[Rucr]
+Hotkey = C，C，C
+
+//想要升级
+[Ruac]
+Hotkey = C
+
+//食尸鬼狂热升级
+[Rugf]
+Hotkey = Z
+
+//网络升级
+[Ruwb]
+Hotkey = W
+
+//石头升级
+[Rusf]
+Hotkey = S
+
+//巫师训练升级
+[Rune]
+Hotkey = E，E
+
+//女妖训练升级
+[Ruba]
+Hotkey = A，A
+
+//冻结呼吸升级
+[Rufb]
+Hotkey = B
+
+//骨骼寿命升级
+[Rusl ]
+Hotkey = S
+
+//疾病云升级
+[Rupc]
+Hotkey = D
+
+//骨骼掌握升级
+[Rusm]
+Hotkey = M
+
+//洞穴升级
+[Rubu]
+Hotkey = B
+
+//
+Exhume 尸体升级[Ruex]
+Hotkey = E
+
+//背包升级
+[Rupm]
+EditorSuffix =（亡灵）
+Hotkey = B
+
+//
+boneyard [ubon]
+Hotkey = B
+
+//牺牲坑
+[usap]
+Hotkey = S
+
+//牺牲（侍酒者的按钮）
+[Alam]
+Hotkey = C
+
+//屠宰场
+[uslh]
+Hotkey = H
+
+// graveyard
+[ugrv]
+Hotkey = V
+
+//黑暗祭坛
+[uaod]
+Hotkey = A
+
+//大墓地
+[unpl]
+Hotkey = N
+
+//死者的殿堂
+[unp1]
+Hotkey = U
+
+//
+黑堡[unp2]
+Hotkey = U
+
+// crypt
+[usep]
+Hotkey = C
+
+//该死的
+[utod的庙宇] ]
+Hotkey = T
+
+//遗物墓
+[utom]
+Hotkey = R
+
+//闹鬼的金矿
+[ugol]
+Hotkey = G
+
+//
+ziggurat [uzig]
+Hotkey = Z
+
+// spirit tower
+[uzg1]
+Hotkey = T
+
+//
+nerubian tower [uzg2]
+Hotkey = N
+
+//////////////////// ///////////////
+亡灵英雄
+///////////////////////////////
+
+crypt地主
+[Ucrl]
+Hotkey = C
+
+//刺穿
+[AUim]
+Hotkey = E
+Researchhotkey = E
+
+//尖甲壳
+[AUts]
+Researchhotkey = S
+
+//食腐甲虫
+[AUcb]
+Hotkey = C
+Researchhotkey = C
+
+// 挖洞（scarab lvl 2）
+[ Abu2]
+Hotkey = B
+Unhotkey = B
+
+// 挖洞（scarab lvl 3）
+[Abu3]
+Hotkey = B
+Unhotkey = B
+
+//蝗虫群
+[AUls]
+Hotkey = L
+Researchhotkey = L
+
+//死亡骑士
+[Udea]
+Hotkey = D
+
+//死亡线圈
+[AUdc]
+Hotkey = C
+Researchhotkey = C
+
+//邪恶光环
+[AUau]
+Researchhotkey = U
+
+//死亡契约
+[AUdp]
+热键= E
+Researchhotkey = E
+
+//死尸
+[AUan]
+热键= d
+Researchhotkey = d
+
+//恐惧魔王
+[乌德烈]
+热键= E
+
+//腐臭蜂群
+[AUCS]
+热键= C
+Researchhotkey = C
+
+//睡眠
+[AUsl]
+Hotkey = E
+Researchhotkey = E
+
+//吸血光环
+[AUav]
+Researchhotkey = V
+
+//地狱
+[AUin]
+Hotkey = N
+Researchhotkey = N
+
+//巫妖
+[Ulic]
+Hotkey = L
+
+//霜冻新星
+[AUfn]
+Hotkey = N
+Researchhotkey = N
+
+//霜冻护甲（自动铸造，Lich）
+[AUfu]
+Hotkey = F
+Researchhotkey = F
+
+//黑暗仪式
+[AUdr]
+Hotkey = R
+Researchhotkey = R
+
+//死亡与衰变
+[AUdd]
+Hotkey = D
+Researchhotkey = D
+
+
+//////////// /////////////////////////////////////////
+//中立英雄＆中立英雄技能
+//包括中立英雄召唤的单位技能
+//不包括佣兵或佣兵能力
+////////////////////////////////////////// /////////////
+
+/////////////////////
+//海巫能力
+/////////// //////////
+
+// sea witch
+[Nngs]
+Hotkey = G
+
+//魔盾（海魔女）
+[ANms]
+Hotkey = N
+Unhotkey = N
+Researchhotkey = N
+
+//分叉的闪电（Sea Witch）
+[ANfl ]
+Hotkey = F
+Researchhotkey = F
+
+//霜箭（海魔女）
+[ANfa]
+Hotkey = R
+Unhotkey = R
+Researchhotkey = R
+
+//龙卷风（Sea Witch）
+[ANto]
+Hotkey = T
+Researchhotkey = T
+
+/////// /////////////
+//坑王
+////////////////////
+
+//主宰
+[Nplh]
+Hotkey = I
+
+// //恐怖的
+l叫（Pit Lord）[ANht]
+Hotkey = T
+Researchhotkey = T
+
+/ /火雨（Pit Lord）
+[ANrf]
+Hotkey = F
+Researchhotkey = F
+
+//劈开攻击（Pit Lord）
+[ANca]
+Researchhotkey = C
+
+// Doom（Pit Lord）
+[ANdo]
+Hotkey = D
+Researchhotkey = D
+
+
+/// /////////////////////////////
+//熊猫人Brewmaster
+////////////////// //////////////////
+
+Pandaren brewmaster
+[Npbm]
+Hotkey = N
+
+//烈火之息（Pandaren Brewmaster）
+[ANbf]
+Hotkey = F
+Researchhotkey = F
+
+// Drunken Brawler（Pandaren Brewmaster）
+[ANdb]
+Researchhotkey = B
+
+// Drunken Haze（Pandaren Brewmaster）
+[ANdh]
+Hotkey = D
+Researchhotkey = D
+
+//风暴，大地和火焰（Pandaren Brewmaster）
+[ANef]
+Hotkey = E
+Researchhotkey = E
+
+
+//////////////////////
+//迷你熊猫能力
+//////////////////// //
+
+//
+风行（风熊猫）[ANwk]
+Hotkey = W
+
+//气旋（风熊猫+各种小兵-共享能力）
+[ACcy]
+Hotkey = C
+
+//消除魔法（风熊猫+各种小兵-共享能力）
+[Adsm]
+Hotkey = D
+
+//嘲讽（大熊猫）
+[ANta]
+Hotkey = T
+
+
+////////////////////////
+//兽王
+/////////////////////// /
+
+//兽王
+[Nbst]
+Hotkey = S
+
+//召唤熊（兽王）
+[ANsg]
+Hotkey = B
+Researchhotkey = B
+
+//召唤Quilbeast（兽王）
+[ANsq]
+Hotkey = Q
+Researchhotkey = Q
+
+//召唤鹰（兽王）
+[ ANsw]
+Hotkey = W
+Researchhotkey = W
+
+//踩踏（兽王）
+[ANst]
+Hotkey = T
+Researchhotkey = T
+
+//眨眼（兽熊）
+[ANbl]
+Hotkey = B
+
+
+/////////////// /////////
+//黑暗游侠
+/////////////////////
+
+[Nbrn]
+热键= R
+
+//黑色箭头（Dark Ranger）
+[ANba]
+Hotkey = B
+Researchhotkey = B
+
+//沉默（Dark Ranger）
+[ANsi]
+Hotkey = E
+Researchhotkey = E
+
+// Life Drain（Dark Ranger）
+[ANdr]
+Hotkey = D
+Researchhotkey = D
+
+// Charm（Dark Ranger）
+[ANch]
+Hotkey = C
+Researchhotkey = C
+
+
+//////////////////////
+//修补匠
+//////// //////////////
+
+// Tinker
+[Ntin]
+Hotkey = Z
+
+// Tinker（morph /
+robo -goblin）[Nrob]
+Hotkey = Z
+
+// Pocket Factory
+[ANsy]
+Hotkey = F
+Researchhotkey = F
+
+//口袋工厂
+[ANs1]
+Hotkey = F
+Researchhotkey = F
+
+//口袋工厂
+[ANs2]
+Hotkey = F
+Researchhotkey = F
+
+//口袋工厂
+[ANs3]
+Hotkey = F
+Researchhotkey = F
+
+//集群火箭
+[ANcs]
+Hotkey = R
+Researchhotkey = R
+
+//集群火箭
+[ ANc1]
+Hotkey = R
+Researchhotkey = R
+
+//集群火箭
+[ANc2]
+Hotkey = R
+Researchhotkey = R
+
+//集群火箭
+[ANc3]
+Hotkey = R
+Researchhotkey = R
+
+//工程升级
+[ANeg]
+Hotkey = E
+Researchhotkey = E
+
+// Robo -小妖精
+[ANrg]
+热键= B
+Unhotkey = T
+Researchhotkey = B
+
+//机器人
+妖[ANg1]
+Hotkey = B
+Unhotkey = T
+Researchhotkey = B
+
+//机器人
+妖[ANg2]
+Hotkey = B
+Unhotkey = T
+Researchhotkey = B
+
+//机器人
+妖[ANg3]
+Hotkey = B
+Unhotkey = T
+Researchhotkey = B
+
+//拆除
+[ANde]
+Hotkey =
+
+//拆除
+[ANd1]
+Hotkey =
+
+//拆除
+[ANd2]
+Hotkey =
+
+//拆除
+[ANd3]
+Hotkey =
+
+[ANfy]
+Hotkey =
+
+[ANf1]
+Hotkey =
+
+[ ANf2]
+热键=
+
+[ANf3]
+热键=
+
+// Kaboom！（Clockwerk妖精等级1）
+[Asdg]
+Hotkey = B
+Unhotkey = B
+
+// Kaboom ！（Clockwerk妖精等级2）
+[Asd2]
+Hotkey = B
+Unhotkey = B
+
+// Kaboom ！（Clockwerk妖精等级3）
+[Asd3]
+Hotkey = B
+Unhotkey = B
+
+
+///////////////////////
+炼金师
+////////// //////////////
+
+//炼金术士
+[Nalc]
+Hotkey = X
+
+//炼金术士
+[Nalm]
+Hotkey = X
+
+//炼金术士（morph，2）
+[Nal2]
+Hotkey = X
+
+//炼金术士（变体，3）
+[Nal3]
+Hotkey = X
+
+//治疗喷雾
+[ANhs]
+Hotkey = E
+Researchhotkey = E
+
+//酸弹
+[ANab]
+Hotkey = B
+Researchhotkey = B
+
+//化学
+损耗[ANcr]
+Hotkey = R
+Researchhotkey = R
+
+//转化
+[ANtm]
+Hotkey = T
+Researchhotkey = T
+
+
+///////////////// ///////
+// Fire Lord
+/////////////////////
+
+[Nfir]
+Hotkey = O
+
+//焚化
+[ANic]
+Hotkey = C
+Researchhotkey = C
+
+//焚化（箭头）
+[ANia]
+热键= C
+Researchhotkey = C
+
+//灵魂燃烧
+[ANso]
+热键= B
+Researchhotkey = B
+
+//召唤熔岩生成
+[ANlm]
+Hotkey = W
+Researchhotkey = W
+
+//火山
+[ANvc]
+热键= V
+研究热键= V >
+
