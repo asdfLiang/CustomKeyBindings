@@ -10,11 +10,11 @@
 //Shared Commands (attack, etc.)
 /////////////////////////////
 
-//move
+//move 移动
 [CmdMove]
 Hotkey=M
 
-//attack
+//attack 攻击
 [CmdAttack]
 Hotkey=A
 
@@ -22,7 +22,7 @@ Hotkey=A
 [CmdAttackGround]
 Hotkey=G
 
-//build (generic)
+//build (generic) 建造列表
 [CmdBuild]
 Hotkey=B
 
@@ -42,7 +42,7 @@ Hotkey=B
 [CmdBuildUndead]
 Hotkey=B
 
-//cancel
+//cancel 取消【ESC】
 [CmdCancel]
 Hotkey=27
 
@@ -58,27 +58,27 @@ Hotkey=27
 [CmdCancelRevive]
 Hotkey=27
 
-//hold position
+//hold position 保持原位
 [CmdHoldPos]
 Hotkey=H
 
-//patrol
+//patrol 巡逻
 [CmdPatrol]
 Hotkey=P
 
-//rally
+//rally 设置集结点
 [CmdRally]
 Hotkey=Y
 
-//select skill
+//select skill 选择技能
 [CmdSelectSkill]
 Hotkey=O
 
-//stop
+//stop 停止
 [CmdStop]
 Hotkey=S
 
-//normal harvest
+//normal harvest 采集
 [Ahar]
 Hotkey=G
 Unhotkey=E
@@ -88,20 +88,20 @@ Unhotkey=E
 Hotkey=G
 Unhotkey=E
 
-// peon/peasant repair ability
+// peon/peasant repair ability 农民修理
 [Arep]
 Hotkey=R
 Unhotkey=R
 
-// neutral interact (Select user command) which is used on player shops, etc
-[Anei]
+// neutral interact (Select user command) which is used on player shops, etc 中立单位
+[Anei] 
 Hotkey=U
 
-// Cargo Load (Zeppelin)
+// Cargo Load (Zeppelin) 装载
 [Aloa]
 Hotkey=L
 
-// Cargo Unload (zeppelin)
+// Cargo Unload (zeppelin) 卸载
 [Adro]
 Hotkey=U
 
@@ -513,11 +513,11 @@ Hotkey=T
 [Ahwd]
 Hotkey=E
 
-//grunt --------------------------------------- 步兵（大G）----------------------------------- //
+//grunt --------------------------------------- 步兵（大G）------------------------------------- //
 [ogru]
 Hotkey=G
 
-//troll headhunter ------------------------------- 猎头 -------------------------------------- //
+//troll headhunter ------------------------------- 猎头 ----------------------------------------- //
 [ohun]
 Hotkey=T
 
@@ -529,19 +529,19 @@ Hotkey=T
 [Absk]
 Hotkey=Z
 
-//kodo beast ---------------------------------- 科多 ---------------------------------------- //
+//kodo beast ------------------------------------ 科多 ----------------------------------------- //
 [okod]
 Hotkey=K
 
-// Devour ------------------- 可多-吞噬-(D->E)
+// Devour ------------------- 可多-吞噬-(D->Z)
 [Adev]
-Hotkey=E
+Hotkey=Z
 
-//peon ------------------------------------- 苦工 ------------------------------------------ //
+//peon ----------------------------------------- 苦工 ------------------------------------------ //
 [opeo]
 Hotkey=P
 
-//raider ------------------------------------ 狼骑 ------------------------------------------ //
+//raider --------------------------------------- 狼骑 ------------------------------------------- //
 [orai]
 Hotkey=R
 
@@ -549,7 +549,7 @@ Hotkey=R
 [Aens]
 Hotkey=E
 
-//shaman --------------------------------- 萨满 ----------------------------------------- //
+//shaman ------------------------------------ 萨满 ------------------------------------------- //
 [oshm]
 Hotkey=S
 
@@ -567,11 +567,11 @@ Unhotkey=R
 [Alsh]
 Hotkey=T
 
-//tauren --------------------------------- 牛头人（黑牛） ---------------------------- //
+//tauren ------------------------------------ 牛头人（黑牛） ------------------------------- //
 [otau]
 Hotkey=T
 
-//troll batrider -------------------------- 蝙蝠 ---------------------------------------- //
+//troll batrider -------------------------------- 蝙蝠 ---------------------------------------- //
 [otbr]
 Hotkey=B
 
@@ -581,11 +581,11 @@ Hotkey=Z
 Unhotkey=Z
 
 
-//wind rider ---------------------------- 风骑士（飞龙）----------------------------- //
+//wind rider ------------------------------ 风骑士（飞龙）-------------------------------- //
 [owyv]
 Hotkey=W
 
-//spirit walker ------------------------- 灵魂行者（白牛）--------------------------- //
+//spirit walker --------------------------- 灵魂行者（白牛）------------------------------ //
 [ospm]
 Hotkey=T
 
@@ -797,7 +797,7 @@ Researchhotkey=R
 Hotkey=T
 Researchhotkey=T
 
-// Earthquake ================= 先知-火山(地震)
+// Earthquake ================= 先知-地震
 [AOeq]
 Hotkey=E
 Researchhotkey=E
@@ -1269,45 +1269,45 @@ Hotkey=V
 
 
 /////////////////////////////
-//Undead Units & Abilities
+//Undead Units & Abilities                            不死族单位 & 技能
 /////////////////////////////
 
-//acolyte
+//acolyte  --------------------------------------- 寺僧 -------------------------------------------- //
 [uaco]
 Hotkey=C
 
-// Unsummon
+// Unsummon ---------------------------------- 反召唤建筑
 [Auns]
 Hotkey=U
 
-// Acolyte Harvest
+// Acolyte Harvest ----------------------------- 采集
 [Aaha]
 Hotkey=G
-Unhotkey=R
+Unhotkey=R 
 
-// Restore (acolyte repair)
+// Restore (acolyte repair) -------------------- 修复
 [Arst]
 Hotkey=R
 Unhotkey=R
 
-//abomination
+//abomination -------------------------------- 憎恶 --------------------------------------------- //
 [uabo]
 Hotkey=A
 
-// Cannibalize (abomination)
+// Cannibalize (abomination) ---------------- 吞噬尸体
 [Acn2]
 Hotkey=C
 
-//banshee
+//banshee ----------------------------------- 女妖 ---------------------------------------------- //
 [uban]
 Hotkey=B
 
-// Curse
+// Curse ------------------------------------- 诅咒
 [Acrs]
 Hotkey=C
 Unhotkey=C
 
-// Anti-magic Shell
+// Anti-magic Shell ------------------------- 反魔法外壳
 [Aams]
 Hotkey=N
 
@@ -1315,7 +1315,7 @@ Hotkey=N
 [Aam2]
 Hotkey=N
 
-// Possession
+// Possession ------------------------------ 占据
 [Apos]
 Hotkey=O
 
@@ -1323,104 +1323,104 @@ Hotkey=O
 [Aps2]
 Hotkey=O
 
-//crypt fiend
+//crypt fiend ------------------------------ 穴居恶魔 -------------------------------------------- //
 [ucry]
 Hotkey=F
 
-// Web
+// Web ----------------------------------- 蛛网
 [Aweb]
 Hotkey=W
 Unhotkey=W
 
-// Burrow (crypt fiend)
+// Burrow (crypt fiend) ------------------ 钻地
 [Abur]
 Hotkey=B
 Unhotkey=B
 
-//frost wyrm
+//frost wyrm ---------------------------- 冰霜巨龙 ---------------------------------------------- //
 [ufro]
 Hotkey=F
 
-//gargoyle
+//gargoyle ------------------------------ 石像鬼 ------------------------------------------------ //
 [ugar]
 Hotkey=A
 
-// Stone Form
+// Stone Form ------------------------- 石像/石像鬼形态
 [Astn]
 Hotkey=F
 Unhotkey=F
 
-//ghoul
+//ghoul -------------------------------- 食尸鬼 ------------------------------------------------- //
 [ugho]
 Hotkey=G
 
-// Cannibalize (ghoul)
+// Cannibalize (ghoul) ---------------- 吞食尸体
 [Acan]
 Hotkey=C
 
-//necromancer
+//necromancer ----------------------- 亡灵巫师 ----------------------------------------------- //
 [unec]
 Hotkey=N
 
-// Raise Dead
+// Raise Dead ------------------------ 复活死尸
 [Arai]
 Hotkey=R
 Unhotkey=R
 
-// Unholy Frenzy
+// Unholy Frenzy -------------------- 邪恶狂热
 // [Auhf]
 // Hotkey=U
 
-// Incite Unholy Frenzy
+// Incite Unholy Frenzy 
 [Auuf]
 Hotkey=U
 
-// Cripple
+// Cripple --------------------------- 残废
 [Acri]
 Hotkey=C
 
-//meat wagon
+//meat wagon --------------------- 绞肉车 --------------------------------------------------- //
 [umtw]
 Hotkey=M
 
-// Load Corpse
+// Load Corpse -------------------- 装载尸体
 [Amel]
 Hotkey=C
 Unhotkey=C
 
-// Unload Corpse
+// Unload Corpse ----------------- 卸载尸体
 [Amed]
 Hotkey=D
 
-//obsidian statue
+//obsidian statue ----------------- 十胜雕像 ------------------------------------------------- //
 [uobs]
 Hotkey=O
 
-// Spirit Touch
+// Spirit Touch -------------------- 灵魂触摸（回蓝）
 [Arpm]
 Hotkey=C
 Unhotkey=C
 
-// Essence of Blight
+// Essence of Blight -------------- 枯萎精髓（回魔）
 [Arpl]
 Hotkey=B
 Unhotkey=B
 
-//destroyer
+//destroyer ----------------------- 变形为毁灭
 [ubsp]
 Hotkey=T
-
-// Orb of Annihilation
+// --------------------------------- 毁灭 -------------------------------------------------------//
+// Orb of Annihilation ----------- 毁灭之球
 [Afak]
 Hotkey=O
 Unhotkey=O
 
-// Devour Magic
+// Devour Magic ---------------- 吞噬魔法（消魔）
 [Advm]
 Hotkey=D
 
 
-// Absorb Mana
+// Absorb Mana ---------------- 吸收魔法（吸收己方单位魔法）
 [Aabs]
 Hotkey=B
 
@@ -1567,108 +1567,108 @@ Hotkey=T
 Hotkey=N
 
 /////////////////////////////
-//Undead Heroes & Abilities
+//Undead Heroes & Abilities                             不死族英雄 & 技能
 /////////////////////////////
 
-//crypt lord
+//crypt lord  ============================ 地穴领主 ============================ //
 [Ucrl]
 Hotkey=C
 
-// Impale
+// Impale =============== 穿刺
 [AUim]
 Hotkey=E
 Researchhotkey=E
 
-//spiked carapace
+//spiked carapace ========== 尖刺外壳
 [AUts]
 Researchhotkey=S
 
-// Carrion Beetles
+// Carrion Beetles ========== 腐尸甲虫
 [AUcb]
 Hotkey=C
 Researchhotkey=C
 
-// Burrow (scarab lvl 2)
+// Burrow (scarab lvl 2) == 腐尸甲虫-钻地
 [Abu2]
 Hotkey=B
 Unhotkey=B
 
-// Burrow (scarab lvl 3)
+// Burrow (scarab lvl 3)== 腐尸甲虫-钻地
 [Abu3]
 Hotkey=B
 Unhotkey=B
 
-// Locust Swarm
+// Locust Swarm ========== 蝗虫群
 [AUls]
 Hotkey=L
 Researchhotkey=L
 
-//death knight
+//death knight  ============================ 死亡骑士 ============================ //
 [Udea]
 Hotkey=D
 
-// Death Coil
+// Death Coil =========== 死亡缠绕
 [AUdc]
 Hotkey=C
 Researchhotkey=C
 
-// Unholy Aura
+// Unholy Aura ========= 邪恶光环
 [AUau]
 Researchhotkey=U
 
-// Death Pact
+// Death Pact ========== 死亡契约（吃单位回血）
 [AUdp]
 Hotkey=E
 Researchhotkey=E
 
-// Animate Dead
+// Animate Dead ======== 操纵死尸
 [AUan]
 Hotkey=D
 Researchhotkey=D
 
-//dreadlord
+//dreadlord ============================= 恐惧魔王 ============================= //
 [Udre]
 Hotkey=E
 
-// Carrion Swarm
+// Carrion Swarm ======= 腐臭蜂群
 [AUcs]
 Hotkey=C
 Researchhotkey=C
 
-// Sleep
+// Sleep ============= 睡眠
 [AUsl]
 Hotkey=E
 Researchhotkey=E
 
-// Vampiric Aura
+// Vampiric Aura ======= 吸血光环
 [AUav]
 Researchhotkey=V
 
-//inferno
+//inferno ============ 地狱火
 [AUin]
 Hotkey=N
 Researchhotkey=N
 
-//lich
+//lich ================================ 巫妖王 ============================== //
 [Ulic]
 Hotkey=L
 
-// Frost Nova
+// Frost Nova ================ 霜冻新星
 [AUfn]
 Hotkey=N
 Researchhotkey=N
 
-// Frost Armor (Autocast, Lich)
+// Frost Armor (Autocast, Lich) ===== 霜冻护甲
 [AUfu]
 Hotkey=F
 Researchhotkey=F
 
-// Dark Ritual
+// Dark Ritual ================ 黑暗仪式（吃单位回蓝）
 [AUdr]
 Hotkey=R
 Researchhotkey=R
 
-// Death And Decay
+// Death And Decay ============ 死亡凋零
 [AUdd]
 Hotkey=D
 Researchhotkey=D
@@ -1676,30 +1676,30 @@ Researchhotkey=D
 
 //////////////////////////////////////////////////////
 // Neutral heroes & neutral hero abilities
-// Includes neutral hero summoned unit abilities
+// Includes neutral hero summoned unit abilities                                                       中立英雄
 // Does not include mercenaries or mercenary abilities
 //////////////////////////////////////////////////////
 
 /////////////////////
-// Sea Witch Abilities
+// Sea Witch Abilities ========================================= 娜迦 ========================================= //
 /////////////////////
 
 //sea witch
 [Nngs]
 Hotkey=G
 
-// Mana Shield (Sea Witch)
+// Mana Shield (Sea Witch) =============== 魔法护盾魔法护盾-（N->W）
 [ANms]
-Hotkey=N
-Unhotkey=N
-Researchhotkey=N
+Hotkey=W
+Unhotkey=W
+Researchhotkey=W
 
-// Forked Lightning (Sea Witch)
+// Forked Lightning (Sea Witch) ============ 叉状闪电-（F->Z）
 [ANfl]
-Hotkey=F
-Researchhotkey=F
+Hotkey=Z
+Researchhotkey=Z
 
-// Frost Arrows (Sea Witch)
+// Frost Arrows (Sea Witch) =============== 霜冻之箭
 [ANfa]
 Hotkey=R
 Unhotkey=R
@@ -1711,145 +1711,145 @@ Hotkey=T
 Researchhotkey=T
 
 /////////////////////
-// Pit Lord
+// Pit Lord =============================================== 深渊魔王 ======================================= //
 /////////////////////
 
 //pit lord
 [Nplh]
 Hotkey=I
 
-// Howl of Terror (Pit Lord)
+// Howl of Terror (Pit Lord) ============== 恐怖嚎叫
 [ANht]
 Hotkey=T
 Researchhotkey=T
 
-// Rain of Fire (Pit Lord)
+// Rain of Fire (Pit Lord) ================ 火雨
 [ANrf]
 Hotkey=F
 Researchhotkey=F
 
-// Cleaving Attack (Pit Lord)
+// Cleaving Attack (Pit Lord) ============= 分裂攻击
 [ANca]
 Researchhotkey=C
 
-// Doom (Pit Lord)
+// Doom (Pit Lord) =================== 魔鬼缠身
 [ANdo]
 Hotkey=D
 Researchhotkey=D
 
 
 ////////////////////////////////
-// Pandaren Brewmaster
+// Pandaren Brewmaster ======================================== 熊猫 ======================================== //
 ////////////////////////////////
 
 //pandaren brewmaster
 [Npbm]
 Hotkey=N
 
-// Breath of Fire (Pandaren Brewmaster)
+// Breath of Fire (Pandaren Brewmaster) ============= 火焰呼吸
 [ANbf]
 Hotkey=F
 Researchhotkey=F
 
-// Drunken Brawler (Pandaren Brewmaster)
+// Drunken Brawler (Pandaren Brewmaster) =========== 醉拳
 [ANdb]
 Researchhotkey=B
 
-// Drunken Haze (Pandaren Brewmaster)
+// Drunken Haze (Pandaren Brewmaster) ============ 醉酒云雾
 [ANdh]
 Hotkey=D
 Researchhotkey=D
 
-// Storm, Earth, and Fire (Pandaren Brewmaster)
+// Storm, Earth, and Fire (Pandaren Brewmaster) =======火土风暴
 [ANef]
 Hotkey=E
 Researchhotkey=E
 
 
 //////////////////////
-//Mini-Panda Abilities
+//Mini-Panda Abilities ======================= 小熊猫 =========================== //
 //////////////////////
 
-// Wind Walk (wind panda)
+// Wind Walk (wind panda)  ============================= 疾风步
 [ANwk]
 Hotkey=W
 
-// cyclone (Wind panda + various creeps -- shared ability)
+// cyclone (Wind panda + various creeps -- shared ability) ========== 飓风
 [ACcy]
 Hotkey=C
 
-// dispel magic (wind panda + various creeps -- shared ability)
+// dispel magic (wind panda + various creeps -- shared ability) ======= 驱逐魔法
 [Adsm]
 Hotkey=D
 
-// Taunt (earth panda)
+// Taunt (earth panda)  ================================ 嘲讽
 [ANta]
 Hotkey=T
 
 
 ////////////////////////
-// Beastmaster
+// Beastmaster =========================================== 兽王 =========================================== //
 ////////////////////////
 
-//beastmaster
+//beastmaster 
 [Nbst]
 Hotkey=S
 
-// Summon Bear (Beastmaster)
+// Summon Bear (Beastmaster) ============== 熊
 [ANsg]
 Hotkey=B
 Researchhotkey=B
 
-// Summon Quilbeast (Beastmaster)
+// Summon Quilbeast (Beastmaster) =========== 豪猪
 [ANsq]
 Hotkey=Q
 Researchhotkey=Q
 
-// Summon Hawk (Beastmaster)
+// Summon Hawk (Beastmaster) ============= 战鹰
 [ANsw]
 Hotkey=W
 Researchhotkey=W
 
-// Stampede (Beastmaster)
+// Stampede (Beastmaster) ================ 万兽奔腾
 [ANst]
 Hotkey=T
 Researchhotkey=T
 
-// Blink (beastmaster bear)
+// Blink (beastmaster bear) ================ 闪烁？
 [ANbl]
 Hotkey=B
 
 
 ///////////////////////
-// Dark Ranger
+// Dark Ranger ====================================== 暗黑游侠 ====================================== //
 ///////////////////////
 
 [Nbrn]
 Hotkey=R
 
-// Black Arrow (Dark Ranger)
+// Black Arrow (Dark Ranger) =========== 黑暗之箭
 [ANba]
 Hotkey=B
 Researchhotkey=B
 
-// Silence (Dark Ranger)
+// Silence (Dark Ranger) ============== 沉默
 [ANsi]
 Hotkey=E
 Researchhotkey=E
 
-// Life Drain  (Dark Ranger)
+// Life Drain  (Dark Ranger) ============ 生命汲取
 [ANdr]
 Hotkey=D
 Researchhotkey=D
 
-// Charm (Dark Ranger)
+// Charm (Dark Ranger) ============== 符咒
 [ANch]
 Hotkey=C
 Researchhotkey=C
 
 
 ///////////////////////
-// Tinker
+// Tinker ========================================== 地精 ========================================= //
 ///////////////////////
 
 // Tinker
@@ -1860,7 +1860,7 @@ Hotkey=Z
 [Nrob]
 Hotkey=Z
 
-// Pocket Factory
+// Pocket Factory ============== 口袋工厂
 [ANsy]
 Hotkey=F
 Researchhotkey=F
@@ -1880,7 +1880,7 @@ Researchhotkey=F
 Hotkey=F
 Researchhotkey=F
 
-// Cluster Rockets
+// Cluster Rockets ============= 火箭群
 [ANcs]
 Hotkey=R
 Researchhotkey=R
@@ -1900,12 +1900,12 @@ Researchhotkey=R
 Hotkey=R
 Researchhotkey=R
 
-// Engineering Upgrade
+// Engineering Upgrade ========= 工程升级
 [ANeg]
 Hotkey=E
 Researchhotkey=E
 
-// Robo-Goblin
+// Robo-Goblin ============== 机器人地精
 [ANrg]
 Hotkey=B
 Unhotkey=T
@@ -1974,7 +1974,7 @@ Unhotkey=B
 
 
 ///////////////////////
-// Alchemist
+// Alchemist ======================================= 炼金术士 ====================================== //
 ///////////////////////
 
 //alchemist
@@ -1993,35 +1993,35 @@ Hotkey=X
 [Nal3]
 Hotkey=X
 
-// Healing Spray
+// Healing Spray ========== 医疗气雾
 [ANhs]
 Hotkey=E
 Researchhotkey=E
 
-// Acid Bomb
+// Acid Bomb ============ 酸性炸弹
 [ANab]
 Hotkey=B
 Researchhotkey=B
 
-// Chemical Rage
+// Chemical Rage ========= 化学风暴
 [ANcr]
 Hotkey=R
 Researchhotkey=R
 
-// Transmute
+// Transmute ============ 点金术
 [ANtm]
 Hotkey=T
 Researchhotkey=T
 
 
 ///////////////////////
-// Fire Lord
+// Fire Lord ======================================= 火魔 ========================================= //
 ///////////////////////
 
 [Nfir]
 Hotkey=O
 
-// Incinerate
+// Incinerate ================ 燃灰
 [ANic]
 Hotkey=C
 Researchhotkey=C
@@ -2031,17 +2031,17 @@ Researchhotkey=C
 Hotkey=C
 Researchhotkey=C
 
-// Soul Burn
+// Soul Burn ================ 灵魂燃烧
 [ANso]
 Hotkey=B
 Researchhotkey=B
 
-// Summmon Lava Spawn
+// Summmon Lava Spawn ======= 召唤炎魔
 [ANlm]
 Hotkey=W
 Researchhotkey=W
 
-// Volcano
+// Volcano ================= 火山爆发
 [ANvc]
 Hotkey=V
 Researchhotkey=V
