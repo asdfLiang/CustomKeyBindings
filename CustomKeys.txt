@@ -553,9 +553,9 @@ Hotkey=E
 [oshm]
 Hotkey=S
 
-// Purge ------------------- 萨满-净化-(G->E) [此处配置文件有误，应将Aprg改为Apg2否则无法改键]
+// Purge ------------------- 萨满-净化-(G->Z) [此处配置文件有误，应将Aprg改为Apg2否则无法改键]
 [Apg2]
-Hotkey=E
+Hotkey=Z
 
 // Bloodlust --------------- 萨满-嗜血-(B->R)
 [Ablo]
